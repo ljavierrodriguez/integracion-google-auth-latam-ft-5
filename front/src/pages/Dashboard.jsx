@@ -8,7 +8,7 @@ const Dashboard = () => {
   return (
     <div>
         <p>Bienvenido, { current_user.name ?? "anonimous" }</p>
-        <img src={ current_user.avatar ?? "https://picsum.photos/id/345/100/100"} alt="" width={100} height={100} />
+        <img src={ current_user.avatar ?? "https://picsum.photos/id/345/100/100"} alt="" width={100} height={100} referrerPolicy="no-referrer" />
     </div>
   )
 }
